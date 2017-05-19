@@ -40,7 +40,7 @@
 		3F1017DC1CEA6645002347DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F1017DF1CEA6645002347DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F1017E11CEA6645002347DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F1017E71CEA66CB002347DE /* BigFile */ = {isa = PBXFileReference; lastKnownFileType = file; path = BigFile; sourceTree = SOURCE_ROOT; };
+		3F1017E71CEA66CB002347DE /* BigFile */ = {isa = PBXFileReference; lastKnownFileType = text; path = BigFile; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +128,7 @@
 				TargetAttributes = {
 					3F1017CC1CEA6645002347DE = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = FTXEA565T8;
 					};
 				};
 			};
@@ -299,6 +300,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FTXEA565T8;
 				INFOPLIST_FILE = BigApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GroundControl.BigApp.A;
@@ -310,6 +312,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FTXEA565T8;
 				INFOPLIST_FILE = BigApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GroundControl.BigApp.A;
@@ -336,6 +339,7 @@
 				3F1017E61CEA6645002347DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
